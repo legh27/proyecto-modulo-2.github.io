@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #23216275;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(180deg, #294e74 0%, rgb(255, 255, 255) 80%);
+  color: #333;
+}
+footer {
+  background-color: #23216275;
+  color: white;
+  text-align: center;
+  padding: 10px 0; 
+  width: 100%;
+  bottom: 0;
+}
+.tarjeta-producto {
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
