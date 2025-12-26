@@ -9,6 +9,20 @@
   padding: 10px 0;
   text-align: center;
 }
+.categorias {
+  color: white;
+  text-align: center;
+  display: flex;
+  gap:2rem;
+  list-style: none;
+}
+.contenedor-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px;
+  align-items: baseline;
+}
 .top-banner {
   background-color: #ffcc00;
   color: black;
@@ -22,6 +36,9 @@ body {
   background: linear-gradient(180deg, #294e74 0%, rgb(255, 255, 255) 80%);
   color: #333;
 }
+main {
+  padding: 20px;
+}
 footer {
   background-color: #23216275;
   color: white;
@@ -30,8 +47,15 @@ footer {
   width: 100%;
   bottom: 0;
 }
-h1, h2{
+h1{
   font-family: 'Micro 5', sans-serif;
+  font-size: 60px;
+}
+h2 {
+  font-family: 'Micro 5', sans-serif;
+  font-size: 40px;
+  color: white;
+  padding: 10px;
 }
 .tarjeta-producto {
   width: 250px;
@@ -62,4 +86,26 @@ h1, h2{
   background-color: #1a1a4c;
   color: white;
   transform: translateY(-2px);
+}
+.contacto-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  list-style: none;
+  padding: 30px;
+  flex-direction: row;
+}
+.info-contacto {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: left;
+}
+.entregas h2 {
+  color:black
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
 }
