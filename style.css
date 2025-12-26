@@ -3,11 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-header {
+.navbar {
   background-color: #23216275;
   color: white;
   padding: 10px 0;
   text-align: center;
+}
+.top-banner {
+  background-color: #ffcc00;
+  color: black;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: bold;
 }
 body {
   font-family: Arial, sans-serif;
@@ -23,6 +30,9 @@ footer {
   width: 100%;
   bottom: 0;
 }
+h1, h2{
+  font-family: 'Micro 5', sans-serif;
+}
 .tarjeta-producto {
   width: 250px;
   border: 1px solid #ccc;
@@ -31,4 +41,25 @@ footer {
   margin: 10px;
   text-align: center;
   background-color: #f9f9f9;
+}
+.soporte {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #23216275;
+  color: black;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  z-index: 1500;
+  transition: .2s ease;
+}
+
+.soporte:hover {
+  background-color: #1a1a4c;
+  color: white;
+  transform: translateY(-2px);
 }
