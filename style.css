@@ -39,6 +39,28 @@ body {
 main {
   padding: 20px;
 }
+.juego-img {
+  width: 230px;
+  object-fit: cover;
+}
+.contenedor-entregas {
+  display: flex;
+}
+.tarjeta-entrega {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  flex: 1;
+}
+.contenedor-catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
 footer {
   background-color: #23216275;
   color: white;
