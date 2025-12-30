@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .navbar {
-  background-color: #23216275;
+  background-color: green;
   color: white;
   padding: 10px 0;
   text-align: center;
@@ -18,6 +18,9 @@
   display: flex;
   gap:2rem;
   list-style: none;
+}
+.categorias li {
+  font-weight: bold;
 }
 .contenedor-nav {
   display: flex;
@@ -36,7 +39,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: linear-gradient(180deg, #294e74 0%, rgb(255, 255, 255) 80%);
+  background: linear-gradient(180deg, #390b4f 50%, rgb(255, 255, 255) 80%);
   color: #333;
 }
 main {
@@ -83,12 +86,17 @@ main {
   gap: 20px;
 }
 footer {
-  background-color: #23216275;
+  background-color: green;
   color: white;
   text-align: center;
   padding: 10px 0; 
   width: 100%;
   bottom: 0;
+}
+.marcas {
+list-style: none;
+gap: 30px;
+margin-top: 20px;
 }
 h1{
   font-family: 'Micro 5', sans-serif;
@@ -103,11 +111,26 @@ h2 {
 .tarjeta-producto {
   width: 250px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 10px;
   margin: 10px;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: rgb(219, 217, 87);
+  position: relative;
+  flex: 0 0 250px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-between;
+}
+.tarjeta-producto button {
+  background-color: #232162;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 .soporte {
   position: fixed;
@@ -137,12 +160,34 @@ h2 {
   list-style: none;
   padding: 30px;
   flex-direction: row;
+  align-items: baseline;
+}
+.contacto-footer h2 {
+  font-size: 60px;
+}
+.contacto-footer p {
+  font-size: 25px;
 }
 .info-contacto {
   margin-top: 10px;
   font-size: 14px;
   color: #ffffff;
   text-align: left;
+}
+.info-entregas {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  background-image: url('https://i.redd.it/8yvi61a80yp71.gif');
+  background-size: cover;
+  background-position: 90%;
+}
+.info-entregas h2 {
+  color:white
+}
+.info-entregas2 {
+  list-style: none;
 }
 .entregas h2 {
   color:black
